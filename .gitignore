@@ -1,0 +1,23 @@
+# Python ortamı
+.venv/
+venv/
+
+# Python geçici dosyaları
+__pycache__/
+*.pyc
+
+# Jupyter geçici dosyaları
+.ipynb_checkpoints/
+
+# Gizli bilgiler
+.env
+.env.*
+kaggle.json
+
+# Kaggle veri dosyaları
+**/data/*
+!**/data/.gitkeep
+
+# Eğitilmiş modeller
+*.pkl
+*.joblib
